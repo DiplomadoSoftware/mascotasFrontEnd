@@ -8,9 +8,7 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <v-sheet class="main-container" rounded elevation="3">
-          <router-view />
-        </v-sheet>
+        <router-view />
       </v-container>
     </v-main>
   </v-app>
@@ -29,10 +27,5 @@ export default {
 <style scoped>
 .app {
   background-color: #dfeeea;
-}
-.main-container {
-  background-color: #a7c4bc;
-  padding: 16px;
-  height: 100vh;
 }
 </style>
